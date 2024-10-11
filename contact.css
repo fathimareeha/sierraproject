@@ -1,0 +1,30 @@
+.bg1{
+    background-image: url('bg-08-free-img copy.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    height:500px;
+    background-repeat: no-repeat;
+}
+.centered-content{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height:50vh;
+    color: azure;
+    font-weight: bold;
+    
+ }
+ input ,textarea{
+      
+      width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px;
+ }
+ .label::after{
+    content: "*";
+    color:red;
+ }

@@ -1,0 +1,21 @@
+.bg1{
+    background-image: url('bg-05-free-img.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    height:500px;
+}
+.centered-content
+{
+       justify-content: center;
+       align-content: center;
+       align-items: center;
+       text-align: center;
+       height:50vh;
+       color: azure;
+       font-weight: bold;
+       
+}
+.card{
+    border: none;
+}

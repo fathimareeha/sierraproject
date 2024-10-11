@@ -1,0 +1,43 @@
+.bg1{
+    background-image: url('bg-03-free-img.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    height:500px;
+    background-repeat: no-repeat;
+    
+    
+    }
+    .centered-content{
+       align-content: center;
+       align-items: center;
+       text-align: center;
+       height:50vh;
+       color: azure;
+       font-weight: bold;
+       
+    }
+    .content1{
+        justify-content: center;
+    }
+    .hr{
+        border: 2px solid white;
+    }
+    .content2{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .content3{
+        display: flex;
+        justify-content: center;
+    }
+    .n2{
+        width:200px
+    }
+    .n3{
+        width:200px
+    }
+    .n1{
+        width:200px
+    }

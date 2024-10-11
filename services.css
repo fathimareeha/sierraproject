@@ -1,0 +1,17 @@
+.bg1{
+    background-image: url('bg-04-free-img.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    height:500px;
+    background-repeat: no-repeat;
+}
+.centered-content{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height:50vh;
+    color: azure;
+    font-weight: bold;
+    
+ }
