@@ -41,3 +41,60 @@
 .hr{
     border: 2px solid white;
 }
+
+
+    
+.my-btn:hover {
+        background-color: #45a049;  
+        transform: width 2s; 
+        width:200px  ;
+
+    }
+.my-home a:hover{
+    color:red;
+    transition: width 3s;
+}
+.my-class{
+    width: 50px;
+  height: 50px;
+  background-color: red;
+  transition: width 2s;
+}
+.my-class:hover{
+       width:200px;
+       
+       background-color: red;
+    
+       
+
+}
+.my-btn1 span:after{
+    content:'\00bb';
+    position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+
+.my-btn1:hover span {
+  padding-right: 25px;
+}
+
+.my-btn1:hover span:after {
+  opacity: 1;
+  right: 0;
+    
+}
+.my-btn1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.new{
+    border:2px solid;
+    resize:both;
+    overflow: auto;
+}
